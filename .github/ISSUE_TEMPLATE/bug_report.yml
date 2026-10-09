@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a reproducible calculation, CSV or interface problem
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and minimal CSV
+      description: Include a small public or synthetic dataset, selected column and unit. Do not include private research data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+      description: For a numerical issue, include an independent reference calculation.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Application version, Java version and browser
+    validations:
+      required: true

@@ -1,3 +1,10 @@
 spring:
   application:
     name: asdp-assignment-3
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 6MB
+
+app:
+  version: 0.1.0
