@@ -49,6 +49,8 @@ The illustrative fixture [examples/temperature.csv](examples/temperature.csv) co
 | --- | --- | --- | --- | --- | --- |
 | 5 | 20 | 28 | 24 | 24 | √10 ≈ 3.1622776601683795 |
 
+For richer demonstrations, see the [sample dataset guide](examples/README.md): seven synthetic datasets cover weather cycles, reaction decay, damped oscillation, sensor drift and outliers, missing greenhouse measurements, water quality at multiple sites and two particle populations.
+
 Cards show six significant digits. Downloads retain API numerical values, selected column, unit, version, exclusions and SHA-256 of the exact uploaded bytes. JSON/chart positions preserve original record order, including gaps for blanks. The horizontal axis is data row index, not time. The CSV summary prefixes textual spreadsheet formulas with an apostrophe; JSON preserves original text.
 
 ## API
